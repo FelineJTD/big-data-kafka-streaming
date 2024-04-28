@@ -11,5 +11,5 @@ credentials = {
 }
 snowflake_engine = sqlalchemy.create_engine(f"snowflake://{credentials['user']}:{credentials['password']}@{credentials['account']}/{credentials['database']}/{credentials['schema']}?warehouse={credentials['warehouse']}")
 
-df = pd.read_sql_query('SELECT * FROM UK_FLOODS.PUBLIC."flood_warning_levels"', snowflake_engine)
+df = pd.read_sql_query('SELECT * FROM UK_FLOODS.PUBLIC.FLOOD_WARNING_LEVELS', snowflake_engine)
 print(df)
