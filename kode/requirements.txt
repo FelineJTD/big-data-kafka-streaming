@@ -1,4 +1,6 @@
 pandas
+kafka-python
+jupyter
+notebook
 snowflake-sqlalchemy
 sqlalchemy
-kafka-python
