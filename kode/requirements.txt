@@ -1,3 +1,4 @@
 pandas
 snowflake-sqlalchemy
 sqlalchemy
+kafka-python
