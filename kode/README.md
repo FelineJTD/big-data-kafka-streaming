@@ -11,5 +11,5 @@
 
 1. `pip install -r requirements.txt` untuk melakukan install library yang diperlukan
 2. `python producer.py` untuk menjalankan Kafka Producer
-3. Jalankan file structured_streaming.py pada Jupyter Notebook
+3. Jalankan file flood_streaming.py dan polygon_streaming.py pada Jupyter Notebook
 4. Execute file copy_stage_to_warehouse.sql pada Snowflake untuk mengcopy data dari stage ke tabel dalam Snowflake
